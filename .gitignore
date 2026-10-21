@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Raw and intermediate datasets
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Preserve folder placeholders
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models and checkpoints
+models/*
+!models/.gitkeep
+
+# Experiment outputs
+results/*
+!results/.gitkeep
+
+# Logs and temporary files
+*.log
+.cache/
+.pytest_cache/
