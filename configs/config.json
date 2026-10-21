@@ -1,0 +1,12 @@
+{
+    "project_name": "IndustrialFanAD",
+    "data_dirs": {
+        "raw": "data/raw",
+        "interim": "data/interim",
+        "processed": "data/processed"
+    },
+    "output_dirs": {
+        "models": "models",
+        "results": "results"
+    }
+}
